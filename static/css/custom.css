@@ -1,1 +1,61 @@
-custom.css
+#bio i {
+	font-size: 30px;
+}
+#bio a i {
+	text-decoration: none;
+	color: #7D7B7B;
+}
+
+#eye {
+	color: #800080;
+	font-size: 20px;
+}
+
+#facebook:hover {
+	color: #3B5998;
+}
+
+#page-tabs {
+	margin-bottom: 1em;
+}
+
+#page-tabs li {
+	width: 50%;
+}
+
+#profile-pic {
+	border-radius: 5px;
+	border: solid 10px #E8E8E8;
+	box-shadow: 1px 1px 10px -2px;
+	height: 200px;
+	margin: 0 auto;
+	width: 200px;
+}
+
+#profile-pic img {
+	width: 100%;
+}
+
+#star {
+	color: #D8D800;
+	font-size: 20px;
+}
+
+#tabs-container {
+	margin-bottom: 2em;
+}
+
+#twitter:hover {
+	color: #4099FF;
+}
+
+@media (max-width: 430px) {
+	#bio {
+		text-align: center;
+	}
+
+	#profile-pic {
+		width: 80%;
+		height: 100%;
+	}
+}
